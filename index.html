@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ishan;s Portfolio Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"/>
+
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+      }
+      
+      body {
+        background-color: rgb(26, 6, 65);
+        color: rgb(241, 241, 241);
+        font-family: sans-serif;
+      }
+      nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: rgb(27, 2, 52);
+      }
+      nav ul{
+        display: flex;
+        justify-content: center ;
+      }
+      nav ul li{
+        list-style: none; /*For removing the bulletin*/
+        margin: 0 23px;
+      }
+      .aa{
+        text-decoration: none;
+        color: white;
+      }
+      .aa:hover{
+        color: cadetblue;
+        font-size: 1rem;
+      }
+      .left{
+        font-size: 2rem;
+        font-family: cursive;
+        color: rgb(254, 254, 254);
+      }
+
+      .firstSection{
+        display: flex;
+        justify-content: space-around;
+        margin: 5px 10px;
+      }
+      .firstSection >div{
+        width: 30%;
+        /* text-align: center; */
+      }
+      .bdfb{
+        list-style: none;
+        color: rgb(226, 229, 45);
+      }
+      .hululu{
+        color: rgb(226, 229, 45);
+      }
+      .leftsection{
+        /* background-color: darkcyan; */
+        width: 100%;
+        text-align: end;
+        margin: 30px 40px;
+        font-size: 2.5rem;
+        font-family: cursive; 
+      }
+      .leftsection .buttons{
+        padding: 20px;
+      }
+      .leftsection .btn{
+        padding: 12px;
+        background-color: rgb(25, 23, 116);
+        border: 2px solid white;
+        border-radius: 10px ;
+        margin: 30px;
+        color: white;
+        font-size: 15px;
+        cursor: pointer;
+        
+      }
+      
+      .rightsection{
+        /* background-color: darkcyan; */
+        width: 1px;
+        text-align: center;
+      }
+      .rightsection img{
+        width: 75%;
+        margin: 20px 2px;
+        border-radius: 25px;
+        
+      }
+      .text-gray{
+        color: gray;
+        font-style: italic;
+        font-family: sans-serif;
+        
+      }
+      #element{
+        color: rgb(226, 229, 45);
+      }
+      .secondsection{
+        width: 80vw;
+        margin: 50px;
+        height: 80vh;
+      }
+      main hr{
+        border: 1;
+        height: 1px;
+        margin: 10px 50px;
+        background-color: rgb(87, 32, 198);
+      }
+      .box{
+        background: white; 
+        width: 78vw; 
+        height: 2px;
+        margin: 56px 40px;
+        display: flex;
+      }
+      .vertical{
+        height: 75px;
+        width: 2px;
+        background-color: white;
+        margin: 0 110px;
+        
+      }
+      .image-top{
+        width: 23px;
+        position: relative;
+        top: -32px;
+        left: -10px;
+      }
+      .vertical-title{
+        position: relative;
+        top: 75px;
+        width: 150px;
+        font-size: 20px;
+        
+
+      }
+      .vertical-description{
+        position: relative;
+        top: 85px;
+        font-size: 15px;
+        color: grey;
+        width: 150px;
+
+      } 
+      footer{
+        height: 175px;
+        background-color: rgb(7, 6, 44);
+      }
+      .footer{
+        display: flex;
+        margin: 9px 10px;
+        padding: 30px;
+        justify-content: space-evenly;
+        background-color: rgb(7, 6, 44);
+        
+      }
+      .footer ul{
+        list-style: none;
+      }
+      .footer>div{
+        width: 200px;
+      }
+      footer .footer-rights{
+        text-align: center;
+        background-color: rgb(7, 6, 44);
+        color: grey;
+      }
+      .links{
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Ishan's Portfolio Website</div>
+        <div class="right">
+            <ul>
+                <a class="aa" href="/"><li>Home</li></a>
+                <a class="aa" href="/"><li>About Me</li></a>
+                <a class="aa" href="/"><li>Services</li></a>
+                <a class="aa" href="/"><li>Contact Me</li></a>
+            </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftsection">
+                Hi, My name is 
+                <li class="bdfb">Ishan</li> 
+                and I am a <br><!-- passionate -->
+                <!-- <div class="hululu">Web Developer.</div> -->
+                <span id="element"></span>
+                <div class="buttons">
+                  <button class="btn">Download Resume</button>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="Me.jpg" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondsection">
+          <span class="text-gray"> What i have done so far? </span>
+            <h1>Work Experience </h1>
+            <div class="box" >
+              <div class="vertical">
+                <img src="Developer img.jpeg" alt="" class="image-top">
+                <div class="vertical-title">HTML Developer (2010-2012)</div>
+                <div class="vertical-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum itaque dicta consequuntur asperiores, cupiditate ipsam omnis, deserunt culpa nemo aliquid,
+                </div> 
+              </div>
+              <div class="vertical">
+                <img src="Developer img.jpeg" alt="" class="image-top">
+                <div class="vertical-title">HTML Developer (2010-2012)</div>
+                <div class="vertical-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum itaque dicta consequuntur asperiores, cupiditate ipsam omnis, deserunt culpa nemo aliquid, 
+                </div>
+              </div>
+              <div class="vertical">
+                <img src="Developer img.jpeg" alt="" class="image-top">
+                <div class="vertical-title">HTML Developer (2010-2012)</div>
+                <div class="vertical-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum itaque dicta consequuntur asperiores, cupiditate ipsam omnis, deserunt culpa nemo aliquid,
+                </div>
+              </div>
+              <div class="vertical">
+                <img src="Developer img.jpeg" alt="" class="image-top">
+                <div class="vertical-title">HTML Developer (2010-2012)</div>
+                <div class="vertical-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum itaque dicta consequuntur asperiores, cupiditate ipsam omnis, deserunt culpa nemo aliquid,
+                </div>
+              </div>
+              <div class="vertical">
+                <img src="Developer img.jpeg" alt="" class="image-top">
+                <div class="vertical-title">HTML Developer (2010-2012)</div>
+                <div class="vertical-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum itaque dicta consequuntur asperiores, cupiditate ipsam omnis, deserunt culpa nemo aliquid, 
+                </div>
+              </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="footer-first">
+          <h3>Ishan's Developer Portfolio</h3>
+        </div>
+        <div class="footer-second">
+          <ul >
+            <li >
+              <a href="https://github.com/ISHANPESHKAR" class="links">Github</a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/ishan-peshkar/"class="links">LinkedIn</a>
+            </li>
+            <li> 
+              <a href="https://www.instagram.com/_ishan.10/" class="links">Instagram</a>
+            </li>
+            <li>
+              <a href="https://twitter.com/Ishan_Peshkar" class="links">Twitter</a>
+            </li>
+          </ul>
+        </div>
+        <!-- <div class="footer-third">
+          <ul>
+            <li>Github</li>
+            <li>LinkedIn</li>
+            <li>Instagram</li>
+            <li>Twitter</li>
+          </ul>
+        </div> -->
+        <div class="foot" >
+          www.ishanpeshkar@gmail.com
+          +91-9322984067
+        </div>
+        
+      </div>
+      <div class="footer-rights">
+        Copyright &#169;ishansportfolio | All rights reserved
+      </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer','Graphic Designer', 'Web Designer' ,'Machine Learning Enthusiast.'],
+          typeSpeed: 50,
+        });
+    </script>
+  </body>
+</html>
